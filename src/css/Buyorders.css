@@ -1,0 +1,155 @@
+.buy-orders-page{
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+    padding: 3rem 5rem;
+}
+
+.heading2{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+.cards-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.order-card{
+    width: 25rem;
+    min-height: 20rem;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    gap: .5rem;
+    padding: 1rem;
+    border: 2px solid #6D67D6;
+}
+
+.buy-amount{
+    background-color: #6D67D6;
+    color: #fff;
+    box-sizing: border-box;
+    padding: .5rem;
+    width: 100%;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    /* font-size: 14px; */
+    justify-content: space-between;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 1rem;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color:#F1EFFF ;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.address{
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    gap: .3rem;
+    width: 100%;
+    font-weight: 400;
+}
+
+
+.name{
+    width: fit-content;
+    font-size: 14px;
+    box-sizing: border-box;
+    /* color: #fff; */
+
+}
+.address span:last-child{
+    font-size: 12px;
+    width: 70%;
+    overflow-wrap:break-word ;
+    box-sizing: border-box;
+    padding: .2rem;
+    border-radius: 5px;
+    border: 1px solid #6D67D6;
+}
+
+.order-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.custome-buy-btn{
+    border: none;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #139d31;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.custome-sell-btn{
+    background-color: #f44336;
+}
+
+.custome-connect-btn{
+    border: none;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    transition: all .2s ease-in-out;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #6D67D6;
+}
+
+.custome-connect-btn:hover{
+    transform: scale(1.06);
+}
+
+.custome-buy-btn:hover {
+    cursor: pointer;
+}
+
+.name1 {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.span01 {
+    border-radius: 2px solid red
+;
+}
+
+.big-buyAmount {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

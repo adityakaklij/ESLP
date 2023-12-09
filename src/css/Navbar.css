@@ -1,0 +1,61 @@
+.navbar{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: black;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    gap: 2rem;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 3rem;
+    gap: 2rem;
+}
+
+.buy{
+    cursor: pointer;
+    background-color: #139d31;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+}
+
+.sell{
+    cursor: pointer;
+    background-color: #f44336;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+}
+
+.create-order-btn{
+    background-color: #6D67D6;
+    cursor: pointer;
+     
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+}
+.btnp{
+    transition: all .15s ease-in-out;
+}
+
+.btnp:hover{
+    transform: scale(1.09);
+}

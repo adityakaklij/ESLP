@@ -1,0 +1,359 @@
+.create-order{
+    background-color: #F8F8F8;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+}
+
+.form-container{
+     
+    padding: 2px;
+    /* position: relative; */
+    z-index:1;
+    border-radius: 10px;
+    /* background-color: #4158D0; */
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  */
+    filter: brightness(120%);
+}
+
+/* .form-container:before {
+    z-index:-1;
+    position: absolute;
+    border-radius: 28px;
+    content:"";
+    width:100%;
+    height:100%;
+    top:0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+    filter: blur(20px);
+    
+  } */
+.form-container input{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 20rem;
+    border: .5px solid #6D67D6;
+    color: black;
+}
+
+.form-container input:focus{
+  border-color: #6D67D6;
+}
+
+.form{
+    background-color: white;
+    padding: 1rem;
+    color: black; 
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 2px solid #6D67D6;
+    /* box-shadow: 3px 0 20px rgba(123, 0, 255, 0.7), -3px 0 5px rgba(187, 0, 255, 0.7); */
+}
+
+.inpt{
+  border: 1px solid red;
+}
+.swap-logo img{
+  width: 3rem;
+  height: 3rem;
+  background-color: #6D67D6;
+  box-sizing: border-box;
+  padding: .4rem;
+  border-radius: 25%;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    width: 100%;
+    /* background-color:rgb(186, 184, 184); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
+}
+.inputGroup input{
+  width: 100%;
+}
+.first{
+  background-color: #c9c7f7;
+}
+
+.cutome-select{
+  padding: 1rem;
+  background-color: #6D67D6;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.select-group{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.heading{
+ color: black;
+ font-size: 1.5rem;
+ font-weight: 600;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 1rem;
+}
+
+@font-face {
+    font-family: 'neontubes';
+    src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+    src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #030c1c;
+  }
+   
+  .main {
+    top: 50%;
+    left: 30%;
+    font-size: 3rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .main span {
+    display: block;
+    position: relative;
+  }
+  .main .webdev {
+    color: black;
+    /* text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 1000px #ff003c; */
+    /* -webkit-animation: blink 4s infinite alternate;
+            animation: blink 4s infinite alternate; */
+  }
+  .main .socod {
+    font-size: 11vw;
+    color: #d4eaff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+    -webkit-animation: buzz 0.01s infinite alternate;
+            animation: buzz 0.01s infinite alternate;
+  }
+   
+  @-webkit-keyframes buzz {
+    70% {
+      opacity: 0.80;
+    }
+  }
+   
+  @keyframes buzz {
+    70% {
+      opacity: 0.80;
+    }
+  }
+  @-webkit-keyframes blink {
+    40% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0.8;
+    }
+    43% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 0.2;
+    }
+    46% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    40% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0.8;
+    }
+    43% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 0.2;
+    }
+    46% {
+      opacity: 1;
+    }
+  }
+ 
+
+/*****Buttons*****/
+
+
+.custome-btn {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #6D67D6;
+  color: white;
+  font-size: 1.5rem;
+}
+ 
+.layer {
+  width: 100%;
+  background-color: #ebf7fc;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+ 
+.button-cover,
+.knobs,
+.layer {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  position: relative;
+  top: 50%;
+  width: 74px;
+  height: 36px;
+  overflow: hidden;
+}
+
+.button.r,
+.button.r .layer {
+  border-radius: 100px;
+}
+
+.button.b2 {
+  border-radius: 2px;
+}
+
+.checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs {
+  z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: #ebf7fc;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+/* Button 10 */
+#button-10 .knobs:before,
+#button-10 .knobs:after,
+#button-10 .knobs span {
+  position: absolute;
+  top: 4px;
+  width: 20px;
+  height: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 9px 4px;
+  border-radius: 2px;
+  transition: 0.3s ease all;
+}
+
+#button-10 .knobs:before {
+  content: "";
+  left: 4px;
+  background-color: #139d31;
+}
+
+#button-10 .knobs:after {
+  content: "SELL";
+  right: 4px;
+  color: #4e4e4e;
+}
+
+#button-10 .knobs span {
+  display: inline-block;
+  left: 4px;
+  color: #fff;
+  z-index: 1;
+}
+
+#button-10 .checkbox:checked + .knobs span {
+  color: #4e4e4e;
+}
+
+#button-10 .checkbox:checked + .knobs:before {
+  left: 42px;
+  background-color: #f44336;
+}
+
+#button-10 .checkbox:checked + .knobs:after {
+  color: #fff;
+}
+
+#button-10 .checkbox:checked ~ .layer {
+  background-color: #fcebeb;
+}
+
+ 
+/*BAckground*/
+.crate-order {
+  background: linear-gradient(95deg, #6d67d6, #961df6, #d81df6, #1dc2f6);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 23s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 99%}
+  50%{background-position:100% 2%}
+  100%{background-position:0% 99%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 99%}
+  50%{background-position:100% 2%}
+  100%{background-position:0% 99%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 99%}
+  50%{background-position:100% 2%}
+  100%{background-position:0% 99%}
+}
+
+
+.custome-btn:hover{
+  cursor: pointer;
+  background-color:#7871fb ;
+}
