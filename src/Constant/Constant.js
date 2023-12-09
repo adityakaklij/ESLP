@@ -1,13 +1,41 @@
-export const PolygonESLContractAddress = "0x0E94a9362d1868f59248265BaF4869fEe8E711af"
-export const PolygonUSDT = "0x709B26f707E8E32E35647C18562B6C36ff2237e2"
-export const PolygonUSDC = "0x94d05a8379d8CdF21a5541CF036672251119d5BE"
-export const PolygonDAI = "0xE982fA0c27DEfb840c5889Bf1a0f803F5017a4f1"
+// Polygon Mumbai Address
+// export const PolygonESLContractAddress = "0x0E94a9362d1868f59248265BaF4869fEe8E711af"
+// export const PolygonUSDT = "0x709B26f707E8E32E35647C18562B6C36ff2237e2"
+// export const PolygonUSDC = "0x94d05a8379d8CdF21a5541CF036672251119d5BE"
+// export const PolygonDAI = "0xE982fA0c27DEfb840c5889Bf1a0f803F5017a4f1"
+// export const PolygonContractAddress = {
+// 	"USDT": "0x709B26f707E8E32E35647C18562B6C36ff2237e2",
+// 	"USDC": "0x94d05a8379d8CdF21a5541CF036672251119d5BE",
+// 	"DAI": "0xE982fA0c27DEfb840c5889Bf1a0f803F5017a4f1"
+// }
 
+// Sapolia ETH Address
+// export const PolygonESLContractAddress = "0x0F71B2a7898EE371b8D1fDc9352dC9cbBC18294e"
+// export const PolygonUSDT = ""
+// export const PolygonDAI = ""
+// export const PolygonContractAddress = {
+// 	"USDT": "",
+// 	"DAI": ""
+// }
+
+// XDC Mainnet Address
+// export const PolygonESLContractAddress = "0x8Ac0A729F6f6Fe6Fc4E514629355bB8513416CDb"
+// export const PolygonUSDT = "0x037d368aa596019c7136e07cae03df41baaab33b"
+// export const PolygonDAI = "0x1ad3a1353dff14dd6b845474fbb5112b10470d08"
+// export const PolygonContractAddress = {
+// 	"USDT": "0x037d368aa596019c7136e07cae03df41baaab33b",
+// 	"DAI": "0x1ad3a1353dff14dd6b845474fbb5112b10470d08"
+// }
+
+// Polygon ZK-EVM Testnet Address
+export const PolygonESLContractAddress = "0x9bdE2350CFFa35035F11B259262558af00338Bef"
+export const PolygonUSDT = "0x30206927718Fc4E825a1b425110Cf3771bAB4b88"
+export const PolygonDAI = "0x945827e29CB2062a15c138E8d8BEF15ded6A495E"
 export const PolygonContractAddress = {
-	"USDT": "0x709B26f707E8E32E35647C18562B6C36ff2237e2",
-	"USDC": "0x94d05a8379d8CdF21a5541CF036672251119d5BE",
-	"DAI": "0xE982fA0c27DEfb840c5889Bf1a0f803F5017a4f1"
+	"USDT": "0x30206927718Fc4E825a1b425110Cf3771bAB4b88",
+	"DAI": "0x945827e29CB2062a15c138E8d8BEF15ded6A495E"
 }
+
 
 
 // ESL Smart Contract Address
